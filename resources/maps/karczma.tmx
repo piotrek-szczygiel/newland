@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="daylight" value="false"/>
+  <property name="level" value="karczma"/>
+  <property name="music" value="galicja.ogg"/>
+  <property name="parent" value="galicja"/>
+ </properties>
+ <tileset firstgid="1" name="TilesetB" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileB.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="TilesetC" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileC.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="TilesetD" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileD.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="769" name="TilesetE" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileE.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="MC1" tilewidth="32" tileheight="32">
+  <image source="../tilesets/minecraft.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1281" name="TilesetB" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TilesetB.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Background" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxTZ2BguMNIHFZngGBS1bOyEIdH1Q8O9bgwNjUAVUUZfw==
+  </data>
+ </layer>
+ <layer name="Foreground1" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAWEYGOPAHsgOgfE8gHYckBwJv0PjIIBKL3B+g2CsgfgnEt4D4Jh795IBLQPMOM0JoZPAIyH8MxE+A+CEFdl4G6j3ICKGJER9s5tMSAAAmZhcX
+  </data>
+ </layer>
+ <layer name="Foreground2" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBguMfIAAf8ONi4gDxQTToQZzBC2FlQPVl49JYD5Sqg8lVA+hAjhKYFuE8jc6kN1uBw5wI6uf8tmfYAAOZSCK0=
+  </data>
+ </layer>
+ <objectgroup name="Trigger">
+  <object name="quit" x="224" y="368" width="32" height="16"/>
+ </objectgroup>
+ <objectgroup name="Collision">
+  <properties>
+   <property name="name" value="Domek1"/>
+  </properties>
+  <object x="224" y="128" width="128" height="32"/>
+  <object x="232" y="200" width="16" height="16"/>
+  <object x="256" y="192" width="32" height="32"/>
+  <object x="296" y="200" width="16" height="16"/>
+  <object x="296" y="264" width="16" height="16"/>
+  <object x="256" y="256" width="32" height="32"/>
+  <object x="232" y="264" width="16" height="16"/>
+  <object x="104" y="264" width="16" height="16"/>
+  <object x="64" y="256" width="32" height="32"/>
+  <object x="40" y="264" width="16" height="16"/>
+  <object x="104" y="200" width="16" height="16"/>
+  <object x="64" y="192" width="32" height="32"/>
+  <object x="40" y="200" width="16" height="16"/>
+  <object x="64" y="128" width="32" height="32"/>
+  <object x="32" y="128" width="24" height="24"/>
+  <object x="96" y="128" width="24" height="24"/>
+  <object x="32" y="32" width="192" height="64"/>
+  <object x="0" y="0" width="32" height="384"/>
+  <object x="32" y="352" width="192" height="32"/>
+  <object x="256" y="352" width="128" height="32"/>
+  <object x="320" y="320" width="64" height="32"/>
+  <object x="352" y="0" width="32" height="320"/>
+  <object x="32" y="0" width="320" height="32"/>
+  <object x="224" y="32" width="128" height="32"/>
+  <object x="256" y="64" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup name="Portal">
+  <object name="main" x="224" y="368" width="32" height="8"/>
+ </objectgroup>
+ <objectgroup name="Light">
+  <object x="200" y="16" width="16" height="24">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="3.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Animation">
+  <object x="192" y="8" width="32" height="32">
+   <properties>
+    <property name="file" value="torch.ani"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Npc">
+  <object name="roza" x="64" y="240" width="32" height="8">
+   <properties>
+    <property name="file" value="roza.npc"/>
+   </properties>
+  </object>
+  <object name="klient" x="256" y="176" width="32" height="8">
+   <properties>
+    <property name="file" value="klient.npc"/>
+   </properties>
+  </object>
+  <object name="kucharz" x="280" y="112" width="40" height="8">
+   <properties>
+    <property name="file" value="kucharz.npc"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="NpcPaths">
+  <object name="kucharz" x="224" y="96" width="128" height="32"/>
+  <object name="roza" x="32" y="96" width="192" height="256"/>
+  <object name="roza" x="224" y="160" width="128" height="192"/>
+  <object name="klient" x="32" y="96" width="192" height="256"/>
+  <object name="klient" x="224" y="160" width="128" height="192"/>
+ </objectgroup>
+</map>

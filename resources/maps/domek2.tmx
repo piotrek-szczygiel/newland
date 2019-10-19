@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="daylight" value="false"/>
+  <property name="level" value="domek2"/>
+  <property name="music" value="galicja.ogg"/>
+  <property name="parent" value="galicja"/>
+ </properties>
+ <tileset firstgid="1" name="TilesetB" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileB.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="TilesetC" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileC.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="TilesetD" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileD.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="769" name="TilesetE" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileE.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="MC1" tilewidth="32" tileheight="32">
+  <image source="../tilesets/minecraft.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Background" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxTZ2BguMOIwOpofHQ5dHli1LOyIDA6H12OUvX48EC4Zyiqx4WxqQEATukZAw==
+  </data>
+ </layer>
+ <layer name="Foreground1" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYICAl8wMWEEsI3ZxZPXNQDUtjJg0LvWTgXJTGDFpZPATh3uIBYcZsbNHIhBBo6kJAF8vDGU=
+  </data>
+ </layer>
+ <layer name="Foreground2" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAd9DGh0oTAPCZUWgtIdzEi5EFsbTxmWQHlZiGpB7GtibR7MIA/jAiMzMcFXjIiMAi8AtK38Kh/jUcOG/iNpv42kH+HRDNgAADSlRKV
+  </data>
+ </layer>
+ <layer name="Cover" width="12" height="12" opacity="0.88">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpII3jAiMzKcXYEGj0cFpoFvO0Mk9AFw4BkM=
+  </data>
+ </layer>
+ <objectgroup name="Trigger">
+  <object name="quit" x="224" y="368" width="32" height="16"/>
+  <object name="schody" x="64" y="0" width="32" height="16"/>
+ </objectgroup>
+ <objectgroup name="Collision">
+  <properties>
+   <property name="name" value="Domek1"/>
+  </properties>
+  <object x="160" y="224" width="96" height="64"/>
+  <object x="288" y="320" width="64" height="32"/>
+  <object x="288" y="224" width="64" height="64"/>
+  <object x="32" y="320" width="32" height="32"/>
+  <object x="96" y="320" width="32" height="32"/>
+  <object x="0" y="0" width="32" height="384"/>
+  <object x="32" y="352" width="192" height="32"/>
+  <object x="256" y="352" width="96" height="32"/>
+  <object x="352" y="0" width="32" height="384"/>
+  <object x="128" y="160" width="32" height="192"/>
+  <object x="128" y="0" width="32" height="128"/>
+  <object x="160" y="0" width="64" height="128"/>
+  <object x="288" y="0" width="64" height="128"/>
+  <object x="224" y="0" width="64" height="96"/>
+  <object x="192" y="128" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object x="288" y="128" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object x="32" y="0" width="32" height="96"/>
+  <object x="96" y="0" width="32" height="96"/>
+  <object x="160" y="288" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="Portal">
+  <object name="main" x="224" y="344" width="32" height="8"/>
+  <object name="schody" x="64" y="16" width="32" height="8"/>
+ </objectgroup>
+ <objectgroup name="Light"/>
+ <objectgroup name="Animation"/>
+ <objectgroup name="Npc"/>
+ <objectgroup name="NpcPaths"/>
+</map>

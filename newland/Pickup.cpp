@@ -3,7 +3,7 @@
 
 Pickup::Pickup(std::string item, sf::Vector2f position)
 {
-    itemTexture.loadFromFile("Resources/items/" + item + ".png");
+    itemTexture.loadFromFile("resources/items/" + item + ".png");
     itemSprite.setTexture(itemTexture);
 
     itemSprite.setPosition(position);

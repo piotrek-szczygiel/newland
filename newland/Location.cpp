@@ -101,11 +101,11 @@ void Location::SetLayerVisible(std::string layerName, bool visible)
 void Location::Load(std::string fileName)
 {
     // Wczytanie mapy z danego pliku
-    mapLoader = new tmx::MapLoader("Resources/maps/");
-    mapLoader->addSearchPath("Resources/tilesets/");
+    mapLoader = new tmx::MapLoader("resources/maps/");
+    mapLoader->addSearchPath("resources/tilesets/");
     mapLoader->load(fileName + ".tmx");
 
-    lightTex.loadFromFile("Resources/sprites/light.png");
+    lightTex.loadFromFile("resources/sprites/light.png");
     lightTex.setSmooth(true);
 
     lightBase.create(GetSize().x, GetSize().y);
@@ -130,7 +130,7 @@ void Location::Load(std::string fileName)
     daylight = mapLoader->getPropertyString("daylight") == "true" ? true : false;
 
     // Wczytanie nazwy pliku myzki w tle
-    bgMusic = "Resources/music/" + mapLoader->getPropertyString("music");
+    bgMusic = "resources/music/" + mapLoader->getPropertyString("music");
 
     for (auto layer = objectLayers.begin(); layer != objectLayers.end(); ++layer) {
         if (layer->layerName == "Npc") {
@@ -235,7 +235,7 @@ void Location::Load(std::string fileName)
         } else if (layer->layerName == "Animation") {
             // Dodawanie npc
             for (auto obj = layer->objects->begin(); obj != layer->objects->end(); ++obj) {
-                std::string file = "Resources/" + obj->getPropertyString("file");
+                std::string file = "resources/" + obj->getPropertyString("file");
                 std::string spriteFile;
                 pugi::xml_document doc;
                 int frames = 0;
@@ -251,7 +251,7 @@ void Location::Load(std::string fileName)
 
                         // Plik textury npc
                         if (name == "sprite") {
-                            std::string filepath = "Resources/sprites/" + value;
+                            std::string filepath = "resources/sprites/" + value;
                             bool found = false;
 
                             for (int i = 0; i < textures.size(); i++) {

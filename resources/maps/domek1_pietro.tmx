@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="daylight" value="false"/>
+  <property name="level" value="domek1_pietro"/>
+  <property name="music" value="galicja.ogg"/>
+  <property name="parent" value="galicja"/>
+ </properties>
+ <tileset firstgid="1" name="TilesetB" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileB.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="TilesetC" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileC.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="TilesetD" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileD.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="769" name="TilesetE" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileE.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1025" name="MC1" tilewidth="32" tileheight="32">
+  <image source="../tilesets/minecraft.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Background" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxTZ2Bg0CASq0MxqerZsWAGLGL41GPDo+ppo54UDABJUwq+
+  </data>
+ </layer>
+ <layer name="Foreground1" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOYGMkTb0YiepHweAEADj+AB8=
+  </data>
+ </layer>
+ <layer name="Foreground2" width="12" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B8AAACQAAB
+  </data>
+ </layer>
+ <layer name="Kosci" width="12" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh+YA0TA8NaIF7HBOGfB9IXmFDV3EXi7wGy9wLxPqjYfSD9AE09MjgDlDsLxOfwqKEGuEdj86kBABBkC90=
+  </data>
+ </layer>
+ <objectgroup name="Trigger">
+  <object name="drabina" x="200" y="70" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="Collision">
+  <properties>
+   <property name="name" value="Domek1"/>
+  </properties>
+  <object x="0" y="64" width="32" height="288"/>
+  <object x="352" y="64" width="32" height="288"/>
+  <object x="0" y="352" width="384" height="32"/>
+  <object x="0" y="0" width="384" height="64"/>
+ </objectgroup>
+ <objectgroup name="Portal">
+  <object name="main" x="192" y="80" width="32" height="8"/>
+ </objectgroup>
+ <objectgroup name="Light">
+  <object x="192" y="160" width="32" height="32">
+   <properties>
+    <property name="color" value="yellow"/>
+    <property name="scale" value="2.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Animation"/>
+ <objectgroup name="Npc"/>
+</map>

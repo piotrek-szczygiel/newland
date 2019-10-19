@@ -1,0 +1,7 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<npc>
+	<name>Adelard</name>
+	<sprite>straznik.png</sprite>
+	<talkable>yes</talkable>
+	<free>yes</free>
+</npc>

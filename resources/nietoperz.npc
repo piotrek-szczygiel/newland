@@ -1,0 +1,8 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<npc>
+	<name>#</name>
+	<sprite>nietoperz.png</sprite>
+	<talkable>no</talkable>
+	<free>yes</free>
+	<speed>60</speed>
+</npc>

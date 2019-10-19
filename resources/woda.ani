@@ -1,0 +1,7 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<animation>
+	<sprite>woda3.png</sprite>
+	<frames>8</frames>
+	<delay>75</delay>
+	<level>0</level>
+</animation>

@@ -12,7 +12,7 @@ const double M_PI = 3.14159265358979323846;
 // Konstruktor obiektu gracza
 Enemy::Enemy()
 {
-    patykTexture.loadFromFile("Resources/eq/kosc.png");
+    patykTexture.loadFromFile("resources/eq/kosc.png");
     patyk.setTexture(patykTexture);
     patyk.setOrigin(patyk.getGlobalBounds().width / 2, patyk.getGlobalBounds().height);
 
@@ -24,7 +24,7 @@ Enemy::Enemy()
     animatedSprite = new AnimatedSprite(sf::seconds(0.15f), true, false);
     enemySpeed = 70.f;
 
-    enemyFont.loadFromFile("Resources/tahoma.ttf");
+    enemyFont.loadFromFile("resources/tahoma.ttf");
 
     enemyName.setFont(enemyFont);
     enemyName.setCharacterSize(16);
@@ -56,7 +56,7 @@ Enemy::~Enemy()
 
 bool Enemy::Load(std::string file)
 {
-    std::string enemyFile = "Resources/" + file;
+    std::string enemyFile = "resources/" + file;
     pugi::xml_document doc;
 
     SetSpeed(50.f);
@@ -70,7 +70,7 @@ bool Enemy::Load(std::string file)
 
             // Plik textury enemy
             if (name == "sprite") {
-                if (!LoadTexture("Resources/sprites/" + value))
+                if (!LoadTexture("resources/sprites/" + value))
                     return false;
             }
 

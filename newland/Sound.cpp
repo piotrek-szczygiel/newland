@@ -21,13 +21,13 @@ Sound::Sound()
 {
     std::cout << "Loading sounds...\n";
 
-    playerHurt1Buffer.loadFromFile("Resources/sounds/playerHurt1.wav");
-    playerHurt2Buffer.loadFromFile("Resources/sounds/playerHurt2.wav");
-    skeletonWalkingBuffer.loadFromFile("Resources/sounds/skeletonWalking.wav");
-    skeletonDeadBuffer.loadFromFile("Resources/sounds/skeletonDead.wav");
-    patykSlashBuffer.loadFromFile("Resources/sounds/patykSlash.wav");
-    leczenieBuffer.loadFromFile("Resources/sounds/leczenie.ogg");
-    pianinoBuffer.loadFromFile("Resources/sounds/piano.ogg");
+    playerHurt1Buffer.loadFromFile("resources/sounds/playerHurt1.wav");
+    playerHurt2Buffer.loadFromFile("resources/sounds/playerHurt2.wav");
+    skeletonWalkingBuffer.loadFromFile("resources/sounds/skeletonWalking.wav");
+    skeletonDeadBuffer.loadFromFile("resources/sounds/skeletonDead.wav");
+    patykSlashBuffer.loadFromFile("resources/sounds/patykSlash.wav");
+    leczenieBuffer.loadFromFile("resources/sounds/leczenie.ogg");
+    pianinoBuffer.loadFromFile("resources/sounds/piano.ogg");
 
     playerHurt1.setBuffer(playerHurt1Buffer);
     playerHurt2.setBuffer(playerHurt2Buffer);

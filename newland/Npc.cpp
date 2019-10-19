@@ -26,7 +26,7 @@ bool Npc::Load(std::string file)
     interaction = false;
     interaction_message = false;
 
-    std::string npcFile = "Resources/" + file;
+    std::string npcFile = "resources/" + file;
     pugi::xml_document doc;
 
     player.SetSpeed(30.f);
@@ -42,7 +42,7 @@ bool Npc::Load(std::string file)
 
             // Plik textury npc
             if (name == "sprite") {
-                if (!player.LoadTexture("Resources/sprites/" + value))
+                if (!player.LoadTexture("resources/sprites/" + value))
                     return false;
             }
 
@@ -74,7 +74,7 @@ bool Npc::Load(std::string file)
             }
 
             else if (name == "avatar") {
-                avatarTex.loadFromFile("Resources/sprites/" + value);
+                avatarTex.loadFromFile("resources/sprites/" + value);
                 avatar.setTexture(avatarTex);
                 avFile = true;
             }

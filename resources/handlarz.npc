@@ -1,0 +1,8 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<npc>
+	<name>Handlarz</name>
+	<sprite>handlarz.png</sprite>
+	<avatar>handlarz_av.png</avatar>
+	<talkable>yes</talkable>
+	<speed>30</speed>
+</npc>

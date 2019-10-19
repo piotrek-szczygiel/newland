@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="daylight" value="false"/>
+  <property name="level" value="lochy"/>
+  <property name="music" value="lochy.ogg"/>
+  <property name="parent" value="pustynia"/>
+ </properties>
+ <tileset firstgid="1" name="TileD" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileD.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="tileset gotowy" tilewidth="32" tileheight="32">
+  <image source="../tilesets/tileset gotowy.png" width="1024" height="768"/>
+ </tileset>
+ <tileset firstgid="1025" name="tileset_3_rpg_maker_xp_by_mataraelfay-d4hnezn" tilewidth="32" tileheight="32">
+  <image source="../tilesets/tileset_3_rpg_maker_xp_by_mataraelfay-d4hnezn.png" width="256" height="8192"/>
+ </tileset>
+ <tileset firstgid="3073" name="TileC-4" tilewidth="32" tileheight="32">
+  <image source="../tilesets/TileC-4.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3329" name="tilesetfix" tilewidth="32" tileheight="32">
+  <image source="../tilesets/tilesetfix.png" width="256" height="2518"/>
+ </tileset>
+ <layer name="Background" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="Foreground" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCYQz8nAkMAJYRcD6RIgduAeWDeJ8zIwSPBC2OlA92RA3VcNpGuA2GOA3ScPdJsC1H35QPcUQN3XDKRbOAfOXfQC93kYGB7wUMesDbwI9ldgvH4jIW7PA/EFLOLvgW77QAX3feRgYPgExJ85yNN/H4gfQNkT2RkYJgHxZHY0NSSEpT1a2PwEuusXEP8m033IYCbQXbOAeDaa+0gJS3ck90nzYsor8EEwOWAh0F2LgHgxO2G1AwFWAt21CohXQ92H7v8AJL4bkO0O5U/BgpHBXmB5so/OZYof0G3+WOJvFBAHBrr+JAQGsv6kVt1xikr1DzqgVt1xiwd3/TRYAHL9NBIBvnw6GPIwvnw60G3gUUA6CKCwTsXWphoF1AGRXAwMUUAczTXQLsEOEoHuSgLi5EHqvkygu7KAOHuQum8UjIJRMAoGEgAAwa847g==
+  </data>
+ </layer>
+ <layer name="Foreground" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJgEAQRNGNLvEaU9sR29UOtAQvNFEwkBV5Dyb/MBEAz81ddgFvm3wMwElfIoa2sWSX/MtSI9aaXXFta237h/sAAODOASq6Bb8=
+  </data>
+ </layer>
+ <layer name="Cover" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEOQEAQheFXbbLZ0GhcBRUaF+ZWnMEmomGFIFmJ/0teM9WbqUYCAMQwOmlysVvgDVmyn+Xpkj/Y7t8F7nFFb6XBPu8DHCmMVPpUJnaTsNr3anzaj/YDgDN3f4BV6KcCAAB4YgYqiAZd
+  </data>
+ </layer>
+ <layer name="Cover" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7D9WMX/jYwlpFXQBICGnfYAAAAAAP46KfwAeA==
+  </data>
+ </layer>
+ <objectgroup name="Collision" opacity="0.9">
+  <object x="792" y="0" width="472" height="168"/>
+  <object x="1112" y="168" width="160" height="1072"/>
+  <object x="1048" y="1184" width="64" height="64"/>
+  <object x="1056" y="1176" width="56" height="8"/>
+  <object x="1056" y="448" width="56" height="488"/>
+  <object x="928" y="512" width="128" height="104"/>
+  <object x="864" y="568" width="64" height="48"/>
+  <object x="984" y="624" width="72" height="312"/>
+  <object x="864" y="616" width="24" height="56"/>
+  <object x="896" y="616" width="88" height="32"/>
+  <object x="896" y="648" width="8"/>
+  <object x="712" y="552" width="48" height="48"/>
+  <object x="704" y="608" width="96" height="32"/>
+  <object x="544" y="824" width="200" height="456"/>
+  <object x="408" y="896" width="136" height="392"/>
+  <object x="0" y="992" width="408" height="288"/>
+  <object x="352" y="952" width="56" height="40"/>
+  <object x="0" y="568" width="352" height="48"/>
+  <object x="0" y="616" width="296" height="152"/>
+  <object x="0" y="768" width="232" height="72"/>
+  <object x="8" y="840" width="112" height="152"/>
+  <object x="120" y="840" width="48" height="56"/>
+  <object x="120" y="896" width="8" height="96"/>
+  <object x="0" y="848" width="8" height="144"/>
+  <object x="0" y="152" width="128" height="416"/>
+  <object x="128" y="504" width="40" height="64"/>
+  <object x="0" y="0" width="792" height="168"/>
+  <object x="128" y="168" width="680" height="128"/>
+  <object x="600" y="296" width="208" height="64"/>
+  <object x="600" y="360" width="144" height="88"/>
+  <object x="672" y="448" width="160" height="24"/>
+  <object x="744" y="416" width="88" height="32"/>
+  <object x="864" y="384" width="32" height="24"/>
+  <object x="896" y="336" width="96" height="32"/>
+  <object x="840" y="216" width="48" height="24"/>
+  <object x="248" y="368" width="48" height="88"/>
+  <object x="352" y="448" width="32" height="24"/>
+  <object x="416" y="368" width="64" height="48"/>
+  <object x="320" y="312" width="64" height="40"/>
+  <object x="128" y="296" width="280" height="32"/>
+  <object x="408" y="296" width="144" height="96"/>
+  <object x="552" y="296" width="48" height="40"/>
+  <object x="536" y="384" width="72" height="72"/>
+  <object x="536" y="832" width="8" height="64"/>
+  <object x="408" y="888" width="136" height="16"/>
+  <object x="344" y="960" width="8" height="32"/>
+  <object x="128" y="888" width="24" height="16"/>
+  <object x="1008" y="1008" width="32" height="16"/>
+  <object x="768" y="864" width="32" height="32"/>
+  <object x="936" y="800" width="16" height="32"/>
+  <object x="240" y="752" width="32" height="24"/>
+  <object x="264" y="864" width="16" height="32"/>
+  <object x="488" y="448" width="16" height="32"/>
+  <object x="1024" y="384" width="64" height="24"/>
+  <object x="1032" y="168" width="48" height="80"/>
+  <object x="800" y="168" width="320" height="32"/>
+  <object x="936" y="176" width="48" height="64"/>
+  <object x="928" y="288" width="32" height="32"/>
+  <object x="744" y="360" width="64" height="24"/>
+  <object x="936" y="448" width="48" height="32"/>
+  <object x="296" y="624" width="48" height="48"/>
+  <object x="992" y="1240" width="400" height="120"/>
+  <object x="128" y="320" width="64" height="64"/>
+  <object x="1056" y="440" width="56" height="8"/>
+  <object x="928" y="504" width="128" height="16"/>
+  <object x="1048" y="448" width="8" height="64"/>
+  <object x="920" y="520" width="8" height="48"/>
+  <object x="920" y="520" width="8"/>
+  <object x="888" y="616" width="8" height="56"/>
+  <object x="1000" y="936" width="88" height="64"/>
+  <object x="992" y="968" width="16" height="24"/>
+  <object x="1016" y="992" width="48" height="24"/>
+  <object x="896" y="648" width="64" height="88"/>
+  <object x="576" y="448" width="64" height="56"/>
+  <object x="1024" y="288" width="24" height="32"/>
+  <object x="1048" y="288" width="32" height="16"/>
+  <object x="1024" y="280" width="56" height="8"/>
+  <object x="608" y="448" width="64" height="8"/>
+  <object x="744" y="384" width="24" height="8"/>
+ </objectgroup>
+ <objectgroup name="Npc">
+  <object name="nietoperz" x="984" y="1104" width="48" height="8">
+   <properties>
+    <property name="file" value="nietoperz.npc"/>
+   </properties>
+  </object>
+  <object name="nietoperz" x="224" y="920" width="48" height="8">
+   <properties>
+    <property name="file" value="nietoperz.npc"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Portal">
+  <object name="main" x="832" y="1240" width="56" height="16"/>
+ </objectgroup>
+ <objectgroup name="Trigger">
+  <object name="pustynia" x="744" y="1264" width="248" height="16"/>
+  <object name="grobowiec" x="224" y="352" width="96" height="128"/>
+ </objectgroup>
+ <objectgroup name="Light">
+  <object x="256" y="832" width="32" height="32">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="3.0"/>
+   </properties>
+  </object>
+  <object x="928" y="768" width="32" height="32">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="3.0"/>
+   </properties>
+  </object>
+  <object x="480" y="416" width="32" height="32">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="3.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Animation">
+  <object x="256" y="824" width="32" height="32">
+   <properties>
+    <property name="file" value="znicz.ani"/>
+   </properties>
+  </object>
+  <object x="480" y="408" width="32" height="32">
+   <properties>
+    <property name="file" value="znicz.ani"/>
+   </properties>
+  </object>
+  <object x="928" y="760" width="32" height="32">
+   <properties>
+    <property name="file" value="znicz.ani"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Enemies">
+  <object name="Szkielet" x="360" y="512" width="344" height="312">
+   <properties>
+    <property name="file" value="szkielet.enm"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

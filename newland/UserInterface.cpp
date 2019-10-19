@@ -54,8 +54,8 @@ sf::Texture UserInterface::equippedTexture;
 // Konstruktor obiektu interfejsu uzytkownika
 void UserInterface::Initialize()
 {
-    normalFont.loadFromFile("Resources/tahoma.ttf");
-    messageFont.loadFromFile("Resources/tahoma.ttf");
+    normalFont.loadFromFile("resources/tahoma.ttf");
+    messageFont.loadFromFile("resources/tahoma.ttf");
 
     messageText.setFont(messageFont);
     messageText.setColor(sf::Color(255, 255, 255, 255));
@@ -68,32 +68,32 @@ void UserInterface::Initialize()
     timeText.setCharacterSize(18);
     timeText.setColor(sf::Color(255, 128, 0, 230));
 
-    messageTexture.loadFromFile("Resources/ui/message.png");
+    messageTexture.loadFromFile("resources/ui/message.png");
     messageSprite.setTexture(messageTexture);
     messageSprite.setScale(2.0f, 2.0f);
 
-    clockTexture.loadFromFile("Resources/items/zegarek.png");
+    clockTexture.loadFromFile("resources/items/zegarek.png");
     clockSprite.setTexture(clockTexture);
 
-    inventoryTexture.loadFromFile("Resources/ui/eq.png");
+    inventoryTexture.loadFromFile("resources/ui/eq.png");
     inventorySprite.setTexture(inventoryTexture);
 
-    itemInfoTexture.loadFromFile("Resources/ui/item.png");
+    itemInfoTexture.loadFromFile("resources/ui/item.png");
     itemInfoSprite.setTexture(itemInfoTexture);
 
-    moneyTexture.loadFromFile("Resources/ui/panel.png");
+    moneyTexture.loadFromFile("resources/ui/panel.png");
     moneySprite.setTexture(moneyTexture);
 
-    selectedItemTexture.loadFromFile("Resources/ui/selected.png");
+    selectedItemTexture.loadFromFile("resources/ui/selected.png");
     selectedItemSprite.setTexture(selectedItemTexture);
 
-    equippedTexture.loadFromFile("Resources/ui/equipped.png");
+    equippedTexture.loadFromFile("resources/ui/equipped.png");
 
-    trojkatTexture.loadFromFile("Resources/ui/trojkat.png");
-    kwadratTexture.loadFromFile("Resources/ui/kwadrat.png");
+    trojkatTexture.loadFromFile("resources/ui/trojkat.png");
+    kwadratTexture.loadFromFile("resources/ui/kwadrat.png");
 
-    eTexture.loadFromFile("Resources/ui/e.png");
-    zTexture.loadFromFile("Resources/ui/z.png");
+    eTexture.loadFromFile("resources/ui/e.png");
+    zTexture.loadFromFile("resources/ui/z.png");
 
     showInventory = false;
 }
@@ -106,12 +106,12 @@ void UserInterface::Clear()
 void UserInterface::Dead()
 {
     sf::Music smiercMuzyka;
-    smiercMuzyka.openFromFile("Resources/sounds/smierc.wav");
+    smiercMuzyka.openFromFile("resources/sounds/smierc.wav");
     smiercMuzyka.setLoop(true);
     smiercMuzyka.setVolume(50);
     smiercMuzyka.play();
     sf::Texture smiercTexture;
-    smiercTexture.loadFromFile("Resources/ui/smierc.png");
+    smiercTexture.loadFromFile("resources/ui/smierc.png");
     sf::Sprite smierc(smiercTexture);
     smierc.setPosition(Camera::cameraPosition);
     smierc.setScale(640.f / smierc.getGlobalBounds().width, 480.f / smierc.getGlobalBounds().height);
@@ -161,7 +161,7 @@ void UserInterface::Draw(std::string sTime, sf::RenderWindow& rt)
 
         for (int i = 0; i < nItems; i++) {
             if (itemsTextures[i].loadFromFile(
-                    "Resources/items/" + Inventory::GetInventory()->at(i).itemName + ".png")) {
+                    "resources/items/" + Inventory::GetInventory()->at(i).itemName + ".png")) {
                 itemsSprites[i].setTexture(itemsTextures[i]);
                 sf::Sprite equippedSprite_(equippedTexture);
                 equippedSprites.push_back(equippedSprite_);
@@ -313,11 +313,11 @@ void UserInterface::Cutscenka(std::string scena)
 
     if (scena == "plaza") {
         sf::Music lektor;
-        lektor.openFromFile("Resources/cutscenki/plaza.wav");
+        lektor.openFromFile("resources/cutscenes/plaza.wav");
         lektor.setVolume(100);
         lektor.setRelativeToListener(true);
         sf::Texture obraz;
-        obraz.loadFromFile("Resources/cutscenki/plaza.png");
+        obraz.loadFromFile("resources/cutscenes/plaza.png");
         sf::Sprite obrazSprite(obraz);
         obrazSprite.setScale(640.f / obrazSprite.getGlobalBounds().width, 480.f / obrazSprite.getGlobalBounds().height);
         obrazSprite.setPosition(Camera::cameraPosition);
@@ -333,11 +333,11 @@ void UserInterface::Cutscenka(std::string scena)
         lektor.stop();
     } else if (scena == "pustynia") {
         sf::Music lektor;
-        lektor.openFromFile("Resources/cutscenki/pustynia.wav");
+        lektor.openFromFile("resources/cutscenes/pustynia.wav");
         lektor.setVolume(100);
         lektor.setRelativeToListener(true);
         sf::Texture obraz;
-        obraz.loadFromFile("Resources/cutscenki/pustynia.png");
+        obraz.loadFromFile("resources/cutscenes/pustynia.png");
         sf::Sprite obrazSprite(obraz);
         obrazSprite.setScale(640.f / obrazSprite.getGlobalBounds().width, 480.f / obrazSprite.getGlobalBounds().height);
         obrazSprite.setPosition(Camera::cameraPosition);
@@ -353,11 +353,11 @@ void UserInterface::Cutscenka(std::string scena)
         lektor.stop();
     } else if (scena == "karczma") {
         sf::Music lektor;
-        lektor.openFromFile("Resources/cutscenki/karczma.wav");
+        lektor.openFromFile("resources/cutscenes/karczma.wav");
         lektor.setVolume(100);
         lektor.setRelativeToListener(true);
         sf::Texture obraz;
-        obraz.loadFromFile("Resources/cutscenki/karczma.png");
+        obraz.loadFromFile("resources/cutscenes/karczma.png");
         sf::Sprite obrazSprite(obraz);
         obrazSprite.setScale(640.f / obrazSprite.getGlobalBounds().width, 480.f / obrazSprite.getGlobalBounds().height);
         obrazSprite.setPosition(Camera::cameraPosition);
@@ -375,11 +375,11 @@ void UserInterface::Cutscenka(std::string scena)
     } else if (scena == "lochy") {
         Game::bgMusic.setVolume(0);
         sf::Music lektor;
-        lektor.openFromFile("Resources/cutscenki/lochy.wav");
+        lektor.openFromFile("resources/cutscenes/lochy.wav");
         lektor.setVolume(100);
         lektor.setRelativeToListener(true);
         sf::Texture obraz;
-        obraz.loadFromFile("Resources/cutscenki/lochy.png");
+        obraz.loadFromFile("resources/cutscenes/lochy.png");
         sf::Sprite obrazSprite(obraz);
         obrazSprite.setScale(640.f / obrazSprite.getGlobalBounds().width, 480.f / obrazSprite.getGlobalBounds().height);
         obrazSprite.setPosition(Camera::cameraPosition);
@@ -405,11 +405,11 @@ void UserInterface::Cutscenka(std::string scena)
         darkenSprite.setPosition(Camera::cameraPosition);
 
         sf::Music lektor;
-        lektor.openFromFile("Resources/cutscenki/butelka.wav");
+        lektor.openFromFile("resources/cutscenes/butelka.wav");
         lektor.setVolume(100);
         lektor.setRelativeToListener(true);
         sf::Texture obraz;
-        obraz.loadFromFile("Resources/cutscenki/butelka.png");
+        obraz.loadFromFile("resources/cutscenes/butelka.png");
         sf::Sprite obrazSprite(obraz);
         obrazSprite.setScale(640.f / obrazSprite.getGlobalBounds().width, 480.f / obrazSprite.getGlobalBounds().height);
         obrazSprite.setPosition(Camera::cameraPosition);
@@ -440,9 +440,9 @@ void UserInterface::Sterowanie()
 {
     sf::Texture sterowanieTexture;
     if (Controls::device == Controls::DeviceJoystick)
-        sterowanieTexture.loadFromFile("Resources/ui/padologia.png");
+        sterowanieTexture.loadFromFile("resources/ui/padologia.png");
     else
-        sterowanieTexture.loadFromFile("Resources/ui/klawiszologia.png");
+        sterowanieTexture.loadFromFile("resources/ui/klawiszologia.png");
 
     sf::Sprite sterowanie(sterowanieTexture);
     sterowanie.setPosition(Camera::cameraPosition);

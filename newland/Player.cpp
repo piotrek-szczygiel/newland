@@ -12,7 +12,7 @@ Player::Player()
     animatedSprite = new AnimatedSprite(sf::seconds(0.15f), true, false);
     playerSpeed = 70.f;
 
-    playerFont.loadFromFile("Resources/tahoma.ttf");
+    playerFont.loadFromFile("resources/tahoma.ttf");
 
     playerName.setFont(playerFont);
     playerName.setCharacterSize(16);
@@ -27,18 +27,18 @@ Player::Player()
     playerHpBg.setFillColor(sf::Color(64, 64, 64, 128));
 
     if (Controls::device == Controls::DeviceJoystick)
-        interactionIcon.loadFromFile("Resources/ui/trojkat.png");
+        interactionIcon.loadFromFile("resources/ui/trojkat.png");
     else
-        interactionIcon.loadFromFile("Resources/ui/e.png");
+        interactionIcon.loadFromFile("resources/ui/e.png");
 
     interactionIconSprite.setTexture(interactionIcon);
     interactionIconSprite.setScale(0.5, 0.5);
 
-    patykTexture.loadFromFile("Resources/eq/patyk.png");
+    patykTexture.loadFromFile("resources/eq/patyk.png");
     patyk.setTexture(patykTexture);
     patyk.setOrigin(patyk.getGlobalBounds().width / 2, patyk.getGlobalBounds().height);
 
-    mieczTexture.loadFromFile("Resources/eq/miecz.png");
+    mieczTexture.loadFromFile("resources/eq/miecz.png");
     miecz.setTexture(mieczTexture);
     miecz.setOrigin(miecz.getGlobalBounds().width / 2, miecz.getGlobalBounds().height);
 

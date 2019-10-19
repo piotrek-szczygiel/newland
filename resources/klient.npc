@@ -1,0 +1,6 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<npc>
+	<name>Zofia</name>
+	<sprite>klient.png</sprite>
+	<talkable>no</talkable>
+</npc>

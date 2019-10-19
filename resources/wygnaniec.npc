@@ -1,0 +1,8 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<npc>
+	<name>Wygnaniec</name>
+	<sprite>wygnaniec.png</sprite>
+	<speed>25</speed>
+	<avatar>wygnaniec_av.png</avatar>
+	<talkable>yes</talkable>
+</npc>

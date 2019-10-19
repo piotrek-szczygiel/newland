@@ -1,0 +1,8 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<npc>
+	<name>Fryderyk</name>
+	<sprite>mieszkaniec2.png</sprite>
+	<talkable>no</talkable>
+	<speed>40</speed>
+	<free>yes</free>
+</npc>

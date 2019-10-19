@@ -73,7 +73,7 @@ void GameEngine::Initialize(float x, float y, std::string title, bool _fullscree
 
     // Wczytanie ikony okna
     sf::Image icon;
-    if (icon.loadFromFile("Resources/ui/icon.png")) {
+    if (icon.loadFromFile("resources/ui/icon.png")) {
         renderWindow->setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
     }
 
@@ -94,7 +94,7 @@ int GameEngine::Run()
         Controls::device = Controls::DeviceKeyboard;
     }
 
-    font.loadFromFile("Resources/tahoma.ttf");
+    font.loadFromFile("resources/tahoma.ttf");
 
     sf::Text fpsText;
     fpsText.setFont(font);
@@ -223,7 +223,7 @@ void GameEngine::MainMenu()
 
     for (int i = 0; i < maxFrames; i++) {
         sf::Texture* frame = new sf::Texture;
-        std::string file = "Resources/menuanimation/";
+        std::string file = "resources/menuanimation/";
         file += std::to_string(i + 1);
         file += ".png";
         frame->loadFromFile(file);
@@ -234,25 +234,25 @@ void GameEngine::MainMenu()
     }
 
     sf::Texture logoTexture;
-    logoTexture.loadFromFile("Resources/ui/logo.png");
+    logoTexture.loadFromFile("resources/ui/logo.png");
     sf::Sprite logo(logoTexture);
     logo.setPosition(GameEngine::screenDimensions.x / 2 - (logo.getGlobalBounds().width / 2), 50);
 
     sf::Music muzyka;
-    muzyka.openFromFile("Resources/music/menu.ogg");
+    muzyka.openFromFile("resources/music/menu.ogg");
     muzyka.setLoop(true);
     muzyka.play();
     muzyka.setVolume(25);
 
     sf::Texture nowagraTexture, nowagraActiveTexture;
-    nowagraTexture.loadFromFile("Resources/ui/nowagra.png");
-    nowagraActiveTexture.loadFromFile("Resources/ui/nowagra_active.png");
+    nowagraTexture.loadFromFile("resources/ui/nowagra.png");
+    nowagraActiveTexture.loadFromFile("resources/ui/nowagra_active.png");
     sf::Sprite nowagra(nowagraTexture);
     sf::Sprite nowagraActive(nowagraActiveTexture);
 
     sf::Texture wyjscieTexture, wyjscieActiveTexture;
-    wyjscieTexture.loadFromFile("Resources/ui/wyjscie.png");
-    wyjscieActiveTexture.loadFromFile("Resources/ui/wyjscie_active.png");
+    wyjscieTexture.loadFromFile("resources/ui/wyjscie.png");
+    wyjscieActiveTexture.loadFromFile("resources/ui/wyjscie_active.png");
     sf::Sprite wyjscie(wyjscieTexture);
     sf::Sprite wyjscieActive(wyjscieActiveTexture);
 

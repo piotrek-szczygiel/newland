@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="31" height="16" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="daylight" value="true"/>
+  <property name="level" value="plaza"/>
+  <property name="music" value="plaza.ogg"/>
+  <property name="parent" value="plaza"/>
+ </properties>
+ <tileset firstgid="1" name="lodz" tilewidth="32" tileheight="32">
+  <image source="../tilesets/lodz.png" width="512" height="243"/>
+ </tileset>
+ <tileset firstgid="113" name="tileset_1_rpgmaker_xp_by_mataraelfay-d4hnete" tilewidth="32" tileheight="32">
+  <image source="../tilesets/tileset_1_rpgmaker_xp_by_mataraelfay-d4hnete.png" width="256" height="6000"/>
+ </tileset>
+ <tileset firstgid="1609" name="a" tilewidth="32" tileheight="32">
+  <image source="../tilesets/morze.jpg" width="1280" height="1024"/>
+ </tileset>
+ <layer name="Background" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVADAAfAAAE=
+  </data>
+ </layer>
+ <layer name="Foreground" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJwNwwVQEAYAAEBmIoJgK4hgO1tA7CRtZwvYrYjYzm5db/Z6s1vXm73e7Nb1Zq83u/Xv/nMEBgTkNJe5zWNeA81nkPkNNsQChhpmQQtZ2CIWtZjFLWFJw42wlJGWNspoq1jVala3hjWtZW1jjDXOOsZb13rWt4ENbWRjm9jUZja3hQkmmmSyKaba0U52totd7WZ3e5hmuhn2tJe97WNf+9nfAQ50kIMd4lCHOdxMR5jlSLOd5GSnONVpTneGM53lbOc413nOd4FP+bTP+KzP+bwv+KIvudBFLnaJS13mcle40lWudo1rXed6N7jRTW52i1vd5ju+63u+7wd+6Ed+7Cdud4c73eVu97jXfe73gAc95GGPeNRjHveEJz3lac/4nd/7gz/6kz/7i7/6m2c953kveNFLXvaKV73mdW9401ve9o53ved9H/jQgHwBAY+Zw5zmMrd5zGug+Qwyv8GGWMBQwww3wlJGWtoooy1jWctZ3gpWtJKVfdwqVrWa1a1hTWtZ2xhjjbOO8da1ni1MMNEkk00x1Za2srVtbGs729vBJ+xoJzvbxa52s7s9TDPdDHvay972cZjDzXSEWY4021GOdoxjHed4JzjRJ53kZKc41WlOd4YzneVs5zjXec53gQtd5GKXuNRlLvdlX/FVX/N13/BN3/JtV7jSVa52jWtd53o3uNFNbnaLW93mdne4013udo97/dTP/Nwv/NKv/Npv/NZ97veABz3kYY941GMe94QnPeVpz3jWc573ghe95GV/9w//9C//9h//9T//94pXveZ1b3jTW972jne9530f+NCAIMxvsCEWMNQwC1rIwhaxqMUsbglLGm6EpYy0tFFGW8aylrO8FaxoJSsbY6xx1jHeutazvg1saCMb28SmNrO5LUww0SSTTTHVlraytW1sazvb28E0082wp73sbR/72s/+DnCggxzsEIc6zOFmOsIsR5rtKEc7xrGOc7wTnOgjYGPxNw==
+  </data>
+ </layer>
+ <layer name="Foreground" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztzUdPlGEYhtEZkCZVepOqVIXQqxB6VelVpKN0fgZLlqyAn8qZhMWEDZlM2H1XcvLm3Tx3KBQUFBT0PoVJIJEPJJFMCqmk8ZF0Msgki2xy4tz+RC555FNAIUUUU0IpZZTzmQoqqYpzu5oaavnCV+qop4FGmmjmG99poTXO3UhttNNBJ11000MvffQzwCA/GGL41Z3bcGwijTDKGONMMMkU08wwyxzz/OQXv1mI2r4LxybSIksss8Iqa6yzwSZbbPOHHf6yy17U9n04NpH2OeCQI4454R//OeWMcy645IprbqK2H9x75Onlfev/DFYsNC0=
+  </data>
+ </layer>
+ <layer name="Cover" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztzicOQkEUheH7EubBFgEFKEABK6AYiqFshWIohmIoi6AJmqAJ2k944jmSEWDmJF8mubk3Z0RMTExMTP6VuRJZYIkV1up33Ru6tthhjwPqzBtoovXl3s9+AEGNPx+5OeGMC65oM++gi55rN22JZJBFzvrMQuyHEdHovnFzxwPP970t0ucZYIiRazdPXwFFlJzuKDcxxDW6PXQp2PDChzHzCaaYuXbL9FVQRc3pTtCZRAovrkgqQA==
+  </data>
+ </layer>
+ <layer name="Cover" width="31" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVADAAfAAAE=
+  </data>
+ </layer>
+ <objectgroup name="Collision">
+  <object x="0" y="0" width="992" height="392"/>
+  <object x="0" y="392" width="616" height="120"/>
+  <object x="616" y="480" width="376" height="32"/>
+ </objectgroup>
+ <objectgroup name="Portal">
+  <object name="main" x="635.333" y="431.333" width="28.6667" height="11.3333"/>
+  <object name="pustynia" x="956" y="432" width="26.6667" height="10"/>
+ </objectgroup>
+ <objectgroup name="Trigger">
+  <object name="pustynia" x="976" y="392" width="16" height="88"/>
+  <object name="sterowanie" x="672" y="392" width="104" height="88"/>
+ </objectgroup>
+ <objectgroup name="Pickup">
+  <object name="butelka" x="840" y="400" width="20" height="18.75"/>
+ </objectgroup>
+</map>

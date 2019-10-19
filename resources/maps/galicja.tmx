@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="daylight" value="true"/>
+  <property name="level" value="galicja"/>
+  <property name="music" value="galicja.ogg"/>
+  <property name="parent" value="galicja"/>
+ </properties>
+ <tileset firstgid="1" name="wenecja" tilewidth="32" tileheight="32">
+  <image source="../tilesets/wenecja.png" width="256" height="960"/>
+ </tileset>
+ <tileset firstgid="241" name="tilea" tilewidth="32" tileheight="32">
+  <image source="../tilesets/tilesetA.png" width="1024" height="768"/>
+ </tileset>
+ <layer name="Background" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzVmNFuwjAMRTP+pJP2sj8p7R5G4aHw//9BK9WaZ107dtIginSFoE1yGtvXgT6ldN5ZXfr/6grnGRbNi+5M10WXSiG+9fubWCunx6IvoXkHRo1vAuuV6PeAfJNxrYSvT77867d3GWMtF+Q1zkXfIT6ZTzSPlUvTth977TvpBFSSS0fhu4gxntyo9T/KqRK+z0pp9SG1riVz2MP3XakIn+UDLeI7NOCT9YH8xRJ5xNq/HkG+U4ZvTrjPRf2csyE+isnA9prG02di5vei9VB86d4PIeKbDLYu/eWRx8ty91r9LceH2NbnHbd5fsDeyP2ge1/Bx9nQfJYHanxW/43yedaO8pXURyu+qNdR3vBxY0O+6FlUOwdqvvcOfJa3oPnJK1vy8fOl5S2WF/B6ROfUGj7+7FpsPd6S8zSr12rPxOtjTLHYRvmkn3F5fidFYku/f1G/fzWfjK2sCdQTZLxyfHIMX4OueXwvx6btIa8Pzx6i2vDwefsU4qP6sPZQ+z+Ezo6IzxpnxVj2/CcKfRD/
+  </data>
+ </layer>
+ <objectgroup name="Object">
+  <object name="beczka1" gid="13" x="833" y="223"/>
+  <object name="beczka2" gid="13" x="833" y="256"/>
+ </objectgroup>
+ <layer name="Foreground" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl7lOw0AQhkci6UgBhDsBOkreAKiAh+FqORqOhqPheB8uIS6hQChCQAJEAREF8Aj8I+8qw8h2YhHbBPJLn2Z3dr0ZrZV/12kimgPzIE3uSoIDcAiOPOaEpQxYAsum7aUzcA4uQHuFNZO1Kc1X/WBA9K/BM7gBWZHPgStDXEqBIngD92rsATyCJ5GLYv+q1Qt4BSWR61BzdD8K9YBe8A4+wKfI9am5ut+Qv4K+3z3BvmqH4WlB3++J4FS1racNC0ZqWawR+/sxOfvB0e4Je4P0qJyKeXI8za8+e76wWkGby1hLhfrY3y/J2Q+OvCejYBAUwK2hoOIdOZ42JhhXa9vzhWX/o3qs2/S9zhbr73kq+zzXN0Rlj9Kx5LbQD5X1yBcNdj+YCTNmPUpH6VlBtAAWXfKpgOuEpRWwGncRPtoAmxH91iSYAtNgBsxW8cwO2A2zqH+q33Svaii4OkGXaa+BdfL+popD8ptkC2yT803ldfZWOpOjUnfA/F9SPXhCwsSmWKuoT9l7NCvhN9GI/SRKb7H3wGaR4/ds/UMrQ9+9JWx9AYXAbEE=
+  </data>
+ </layer>
+ <layer name="Foreground" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgeYOlAO4AAmA3Es6A0Mlg7AG7BBhYD8UIojQy2Qult9HUO0QBXuA4WgCtcR8HgAQsG2gEEwIqBdgABMBjy3gY8/MGQ93ZA6VlofHoBISAWhrIrgbgKSQ7GF2GAlFUgIEo/p4GBFBBLQ9mNQNyEJAfjyyCJyQIxL32cNgpGwSgYBaNgFIyCYQCmDrQDhihAbqMNFgAAB/cWPA==
+  </data>
+ </layer>
+ <layer name="Cover" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl8kKQiEUhs8rVNIA0WvVomnRtOkBGna1aXineyvitqtH6o+uIIJokd4UP/hwQPHHxUEZES3gEjL6nASmuS6pwbrBugzeciPhUIYVg7lIeFQ1Y5lEYQrP8PLjfC3NWCZT6LJmneCV3vfxasU7uSt8OMwXKj7VrDbsGKxbwbXlLJwu7ME+HMChwZ4N3FrMJDKCYziBUzgz2HOAR5uhJOYOz4pEQkX8k+zgnr77U7mmVHQADY2iA0S8hb/zfUB8C/L6IcPov2tLU9G3xRMoySoS
+  </data>
+ </layer>
+ <layer name="Cover" width="40" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJACAMBEH7r+I+gmVawoFGT2TnG5D9JNhaDRW9c8pIBwCI6GauGxELlA4wuKl4jdt1AADwP6UDDP7QeyauawXD
+  </data>
+ </layer>
+ <objectgroup name="Collision">
+  <object x="152" y="512" width="8" height="32"/>
+  <object x="96" y="512" width="8" height="32"/>
+  <object x="88" y="512" width="8" height="32"/>
+  <object x="0" y="512" width="8" height="32"/>
+  <object x="0" y="32" width="128" height="32"/>
+  <object x="384" y="928" width="128" height="32"/>
+  <object x="0" y="288" width="64" height="96"/>
+  <object x="864" y="128" width="32" height="32"/>
+  <object x="288" y="352" width="64" height="32"/>
+  <object x="392" y="352" width="48" height="32"/>
+  <object x="512" y="352" width="96" height="32"/>
+  <object x="672" y="256" width="32" height="192"/>
+  <object x="640" y="416" width="32" height="64"/>
+  <object x="608" y="448" width="32" height="256"/>
+  <object x="544" y="768" width="32" height="192"/>
+  <object x="544" y="736" width="32" height="32"/>
+  <object x="0" y="416" width="56" height="32"/>
+  <object x="288" y="96" width="32" height="32"/>
+  <object x="288" y="0" width="32" height="32"/>
+  <object x="416" y="40" width="32" height="48"/>
+  <object x="456" y="160" width="56" height="32"/>
+  <object x="608" y="160" width="64" height="32"/>
+  <object x="672" y="0" width="32" height="192"/>
+  <object x="800" y="0" width="32" height="192"/>
+  <object x="800" y="256" width="32" height="224"/>
+  <object x="704" y="256" width="96" height="8"/>
+  <object x="704" y="184" width="96" height="8"/>
+  <object x="768" y="448" width="32" height="64"/>
+  <object x="736" y="480" width="32" height="288"/>
+  <object x="704" y="704" width="32" height="128"/>
+  <object x="672" y="800" width="32" height="160"/>
+  <object x="928" y="416" width="64" height="32"/>
+  <object x="832" y="416" width="56" height="32"/>
+  <object x="1056" y="416" width="64" height="32"/>
+  <object x="1120" y="416" width="32" height="32"/>
+  <object x="1184" y="416" width="32" height="32"/>
+  <object x="1216" y="416" width="32" height="16"/>
+  <object x="1248" y="416" width="32" height="32"/>
+  <object x="1024" y="288" width="32" height="96"/>
+  <object x="1056" y="288" width="224" height="128"/>
+  <object x="832" y="320" width="160" height="96"/>
+  <object x="512" y="56" width="96" height="120"/>
+  <object x="320" y="0" width="96" height="112"/>
+  <object x="224" y="352" width="32" height="32"/>
+  <object x="176" y="288" width="496" height="64"/>
+  <object x="576" y="640" width="32" height="160"/>
+  <object x="448" y="704" width="96" height="32"/>
+  <object x="128" y="64" width="32" height="32"/>
+  <object x="192" y="64" width="64" height="32"/>
+  <object x="352" y="704" width="64" height="32"/>
+  <object x="424" y="504" width="48" height="40"/>
+  <object x="0" y="896" width="64" height="64"/>
+  <object x="0" y="808" width="32" height="24"/>
+  <object x="64" y="936" width="32" height="24"/>
+  <object x="192" y="928" width="64" height="32"/>
+  <object x="96" y="928" width="56" height="32"/>
+  <object x="512" y="176" width="32" height="16"/>
+  <object x="576" y="176" width="32" height="16"/>
+  <object x="320" y="112" width="32" height="16"/>
+  <object x="384" y="112" width="32" height="16"/>
+  <object x="608" y="416" width="32" height="32"/>
+  <object x="640" y="352" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="Trigger">
+  <object name="domek1" x="1152" y="416" width="32" height="8"/>
+  <object name="domek2" x="352" y="112" width="32" height="8"/>
+  <object name="karczma" x="544" y="176" width="32" height="8"/>
+  <object name="farma" x="832" y="944" width="288" height="16"/>
+  <object name="pustynia" x="-1" y="64" width="10" height="94"/>
+  <object name="fontanna" x="184" y="40" width="80" height="64"/>
+ </objectgroup>
+ <objectgroup name="Npc">
+  <object name="Straznik" x="800" y="200" width="40" height="8">
+   <properties>
+    <property name="file" value="straznik.npc"/>
+   </properties>
+  </object>
+  <object name="Handlarz" x="104" y="536" width="40" height="8">
+   <properties>
+    <property name="file" value="handlarz.npc"/>
+   </properties>
+  </object>
+  <object name="Znachorka" x="96" y="840" width="48" height="8">
+   <properties>
+    <property name="file" value="znachorka.npc"/>
+   </properties>
+  </object>
+  <object name="Mieszkaniec1" x="992" y="656" width="64" height="8">
+   <properties>
+    <property name="file" value="mieszkaniec1.npc"/>
+   </properties>
+  </object>
+  <object name="Mieszkaniec2" x="80" y="184" width="64" height="8">
+   <properties>
+    <property name="file" value="mieszkaniec2.npc"/>
+   </properties>
+  </object>
+  <object name="Mieszkaniec3" x="480" y="600" width="64" height="8">
+   <properties>
+    <property name="file" value="mieszkaniec3.npc"/>
+   </properties>
+  </object>
+  <object name="Kaplan" x="352" y="208" width="32" height="8">
+   <properties>
+    <property name="file" value="kaplan.npc"/>
+   </properties>
+  </object>
+  <object name="stroz" x="352" y="424" width="40" height="8">
+   <properties>
+    <property name="file" value="stroz1.npc"/>
+   </properties>
+  </object>
+  <object name="stroz" x="408" y="816" width="40" height="8">
+   <properties>
+    <property name="file" value="stroz2.npc"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="NpcPaths">
+  <object name="Handlarz" x="0" y="448" width="352" height="160"/>
+  <object name="Znachorka" x="0" y="808" width="216" height="152"/>
+  <object name="Handlarz" x="64" y="416" width="288" height="32"/>
+ </objectgroup>
+ <objectgroup name="Light">
+  <properties>
+   <property name="color" value="orange"/>
+   <property name="scale" value="2.0"/>
+  </properties>
+  <object x="224" y="352" width="32" height="32">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="2.0"/>
+   </properties>
+  </object>
+  <object x="576" y="640" width="32" height="32">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="2.0"/>
+   </properties>
+  </object>
+  <object x="128" y="64" width="32" height="32">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="2.0"/>
+   </properties>
+  </object>
+  <object x="864" y="128" width="32" height="32">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="2.0"/>
+   </properties>
+  </object>
+  <object x="1184" y="416" width="32" height="32">
+   <properties>
+    <property name="color" value="orange"/>
+    <property name="scale" value="2.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Portal">
+  <object name="main" x="192" y="224" width="32" height="8"/>
+  <object name="domek1" x="1152" y="432" width="40" height="8"/>
+  <object name="farma" x="960" y="928" width="32" height="32"/>
+  <object name="pustynia" x="16" y="112" width="48" height="8"/>
+  <object name="karczma" x="544" y="208" width="40" height="8"/>
+  <object name="domek2" x="352" y="144" width="40" height="8"/>
+ </objectgroup>
+ <objectgroup name="Animation">
+  <object x="704" y="0" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="0" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="0" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="32" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="32" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="32" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="64" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="64" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="64" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="96" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="96" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="96" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="128" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="128" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="128" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="160" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="160" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="160" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="256" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="256" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="256" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="288" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="288" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="288" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="320" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="320" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="320" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="352" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="352" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="352" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="384" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="384" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="384" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="416" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="768" y="416" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="416" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="448" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="736" y="448" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="448" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="480" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="480" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="480" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="512" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="512" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="512" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="544" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="544" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="544" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="576" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="576" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="576" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="608" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="608" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="608" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="640" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="640" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="640" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="672" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="704" y="672" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="672" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="608" y="704" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="704" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="704" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="608" y="736" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="736" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="736" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="608" y="768" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="672" y="768" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="768" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="576" y="800" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="800" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="608" y="800" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="576" y="832" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="832" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="608" y="832" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="576" y="864" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="864" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="608" y="864" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="576" y="896" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="896" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="608" y="896" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="576" y="928" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="640" y="928" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="608" y="928" width="32" height="32">
+   <properties>
+    <property name="file" value="woda.ani"/>
+   </properties>
+  </object>
+  <object x="576" y="640" width="32" height="32">
+   <properties>
+    <property name="file" value="torch.ani"/>
+   </properties>
+  </object>
+  <object x="864" y="128" width="32" height="32">
+   <properties>
+    <property name="file" value="torch.ani"/>
+   </properties>
+  </object>
+  <object x="128" y="64" width="32" height="32">
+   <properties>
+    <property name="file" value="torch.ani"/>
+   </properties>
+  </object>
+  <object x="224" y="352" width="32" height="32">
+   <properties>
+    <property name="file" value="torch.ani"/>
+   </properties>
+  </object>
+  <object x="1184" y="416" width="32" height="32">
+   <properties>
+    <property name="file" value="torch.ani"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,7 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<npc>
+	<name>Róża</name>
+	<sprite>roza.png</sprite>
+	<avatar>roza_av.png</avatar>
+	<talkable>yes</talkable>
+</npc>

@@ -99,7 +99,7 @@ void Game::Initialize(sf::RenderWindow* win, std::string name)
     Maps::AddCacheLocation("farma");
 
     // Wczytanie tekstury gracza
-    player.LoadTexture("Resources/sprites/player.png");
+    player.LoadTexture("resources/sprites/player.png");
     player.SetName(pugi::as_wide(name), sf::Color::Cyan);
     player.mainPlayer = true;
 

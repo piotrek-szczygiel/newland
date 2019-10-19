@@ -1,0 +1,9 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+<npc>
+	<name>Kapłan</name>
+	<sprite>kaplan.png</sprite>
+	<avatar>kaplan_av.png</avatar>
+	<talkable>yes</talkable>
+	<speed>35</speed>
+	<free>yes</free>
+</npc>
